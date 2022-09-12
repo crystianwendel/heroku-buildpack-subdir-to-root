@@ -52,7 +52,7 @@ msg "Cleaning build directory"
 rm -rf "${BUILD_DIR}"/*
 
 msg "Moving project directory from ${TMP_DIR} to ${BUILD_DIR}"
-mv "${TMP_DIR}/${PROJECT_NAME}"/* "${BUILD_DIR}"
+mv "${TMP_DIR}/${PROJECT_NAME}"/* "${BUILD_DIR}/app"
 rm -rf "${TMP_DIR}"
 
 exit 0
